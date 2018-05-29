@@ -13,7 +13,8 @@ describe 'fizz_buzz' do
     it "returns 'fizz buzz' if number is divisible by 15" do
         expect(fizz_buzz(15)).to eq "fizz buzz"
     end
-#   it 'returns error if number is not a number' do
-#       expect(fizz_buzz("string")).to "string"
-#    end
+   it 'returns error if input is not a number' do
+       expect(fizz_buzz()).to be Integer
+       #does not work 
+    end
 end

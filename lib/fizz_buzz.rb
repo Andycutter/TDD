@@ -1,5 +1,8 @@
 def fizz_buzz(number)
-    if number % 15 == 0
+    if #number.is_a? String
+        #'You need to input an integer' 
+        #elsif
+        number % 15 == 0
         'fizz buzz'
         elsif number % 3 == 0
         'fizz'
@@ -11,3 +14,4 @@ def fizz_buzz(number)
 end
 
 ## Needed to reverse order of number checks, or else 15 => fizz
+## code for integer input not ok
